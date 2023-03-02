@@ -1,0 +1,53 @@
+/* 
+my three colors: 
+reddish purple - #741B47
+blue grey - #697E8D
+brown - #9D683C
+black - #221811
+white - #FEFAEB
+*/
+
+body{
+    background-color: #FEFAEB;
+    color:#221811;      /* text color */
+    font-family: Verdana,Arial,sans-serif;
+}
+
+header{
+    background-color: #9D683C;
+    color:#741B47;
+    text-align: center;
+}
+
+h1{
+    line-height: 200%
+}
+
+h2{
+    color:#741B47;
+    font-size: 200%
+}
+
+nav{
+    text-align: center;
+    font-weight: bold;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: #9D683C;
+    color:#221811; 
+    font-size: .60em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#wrapper{
+    margin-right: auto; /* auto space evenly on both sides*/
+    margin-left: auto;
+    width: 80%;
+}
