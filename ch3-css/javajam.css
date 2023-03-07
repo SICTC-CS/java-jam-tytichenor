@@ -1,31 +1,21 @@
-/* 
-my three colors: 
-reddish purple - #741B47
-blue grey - #697E8D
-brown - #9D683C
-black - #221811
-white - #FEFAEB
-*/
-
 body{
-    background-color: #FEFAEB;
-    color:#221811;      /* text color */
-    font-family: Verdana,Arial,sans-serif;
+    background-color: #FCEBB6;
+    color: #221811;
+    font: Arial;
 }
 
 header{
-    background-color: #9D683C;
-    color:#741B47;
+    color: #8C3826;
+    background-color: #D2B48C;
     text-align: center;
 }
 
 h1{
-    line-height: 200%
+    line-height: 200%;
 }
 
 h2{
-    color:#741B47;
-    font-size: 200%
+    color: #8C3826;
 }
 
 nav{
@@ -33,21 +23,16 @@ nav{
     font-weight: bold;
 }
 
-nav a{
-    text-decoration: none;
-}
-
 footer{
-    background-color: #9D683C;
-    color:#221811; 
+    background-color: #D2B48C;
     font-size: .60em;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
+    text-align: center;
 }
 
 #wrapper{
-    margin-right: auto; /* auto space evenly on both sides*/
-    margin-left: auto;
     width: 80%;
+    background-color: #FEFAEB;
+    margin-right: auto;
+    margin-left: auto;
 }
