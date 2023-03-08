@@ -16,31 +16,59 @@ header{
     padding-bottom: 5px;
 }
 
+div{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+ul{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
 h1{
     font-size: 3em;
 }
 
 h2{
     color: #8C3826;
+    padding-left: 3em;
+    padding-right: 2em;
 }
 
 h3{
     color: #8C3826;
+    padding-left: 3em;
+    padding-right: 2em;
 }
 
 h4{
     background-color: #D2B48C;
     font-size: 1.2em;
-    padding-left: .5em;
+    padding-left: 3em;
+    padding-right: 2em;
     padding-bottom: .25em;
 }
 
-main{
-    background-color: #FEFAEB;
-    padding-left: 2em;
+p{
+    padding-left: 3em;
     padding-right: 2em;
+}
+
+main{
+    background-color: #FEF6C2;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
     padding-bottom: 2em;
+    margin-left: 200px;
     display: block;
+    overflow: auto;
 }
 
 dt{
@@ -54,6 +82,8 @@ nav{
     font-size: 1.5em;
     padding-top: 5px;
     padding-bottom: 5px;
+    float: left;
+    width: 200px;
 }
 
 nav a{
@@ -94,6 +124,22 @@ footer{
 #homehero{
     height: 300px;
     background-image: url("https://homepages.uc.edu/~schallkd/ch6/heroroad.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
+
+#heromugs{
+    height: 300px;
+    background-image: url("https://homepages.uc.edu/~veakvt/javajamlogo.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#heroguitar{
+    height: 300px;
+    background-image: url("https://media.cheggcdn.com/media%2F582%2F582e4bdf-afd3-4b8a-a98f-e4091bfa1c86%2Fphpnob5MJ.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+*{box-sizing: border-box;}
