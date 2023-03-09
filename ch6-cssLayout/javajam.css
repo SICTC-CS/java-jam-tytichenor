@@ -56,8 +56,8 @@ h4{
     padding-right: 2em;
     padding-bottom: 0;
     text-transform: uppercase;
-    /**/
     border-bottom: #231814;
+    clear: left;
     float: left;
 }
 
@@ -82,7 +82,7 @@ dt{
 }
 
 nav{
-    background-color: #FEFAEB;
+    background-color: #231814;
     text-align: center;
     font-weight: bold;
     font-size: 1.5em;
@@ -138,7 +138,7 @@ footer{
 
 #heromugs{
     height: 300px;
-    background-image: url("https://homepages.uc.edu/~veakvt/javajamlogo.jpg");
+    background-image: url("https://homepages.uc.edu/~veakvt/mugs.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -175,7 +175,23 @@ nav ul{
     padding-left: 0;
 }
 
+header:link{
+    text-decoration: none;
+    color: #231814;
+}
+
+header:visited{
+    text-decoration: none;
+    color: #231814;
+}
+
+header:hover{
+    text-decoration: none;
+    color: #FEF6C2;
+}
+
 .onethird{
     float: left;
     width: 33%;
 }
+
