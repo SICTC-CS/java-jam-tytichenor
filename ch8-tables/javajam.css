@@ -1,22 +1,17 @@
 /* table css */
 table{
-    align-items: center;
+    margin: auto;
     width: 90%;
     border-spacing: 0;
+    background-color: #fef6c2;
 }
 
-td{
+td,th{
     padding: 10px;
-    background-color: #d2b48e;
 }
 
-th{
-    padding: 10px;
+tr:nth-last-of-type(odd){
     background-color: #d2b48e;
-}
-
-tr:nth-of-type(even){
-    background-color: #DBE8E9;
 }
 
 
