@@ -1,0 +1,195 @@
+body{
+    background-color: #FCEBB6;
+    color: #221811;
+    font: Arial;
+    background-image: url("img/fadedroad50.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    color: #231814;
+    background-color: #D2B48C;
+    background-image: url("img/coffeelogo.jpg");
+    background-repeat: no-repeat;
+    padding-left: 240px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+ul{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    color: #8C3826;
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+h3{
+    color: #8C3826;
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+h4 {
+    background-color: #7F5539;
+    color:#DDBEA9;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: 0;
+    text-transform: capitalize;
+    border-bottom: 2px solid #231814;
+}
+
+
+p{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+main{
+    background-color: #FEF6C2;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 2em;
+    margin-left: 200px;
+    display: block;
+    overflow: auto;
+}
+
+dt{
+    color: #8C3826;
+}
+
+nav{
+    background-color: #231814;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    width: 200px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+footer{
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    border-top: #8C3826;
+    border-radius: 2px;
+    border-style: solid;
+}
+
+#wrapper{
+    width: 80%;
+    background-color: #231814;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: #221811; 
+    padding: 0;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+#homehero{
+    height: 300px;
+    background-image: url("img/road.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#heromugs{
+    height: 300px;
+    background-image: url("img/heromugs.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#heroguitar{
+    height: 300px;
+    background-image: url("img/heroguitar.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.floatleft{
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+*{box-sizing: border-box;}
+
+nav a:link{
+    color: #FEF6C2;
+}
+
+nav a:visited{
+    color: #D2B48C
+}
+
+nav a:hover{
+    color: #CC9933
+}
+
+nav ul{
+    text-decoration: none;
+    padding-left: 0;
+}
+
+header:link{
+    text-decoration: none;
+    color: #231814;
+}
+
+header:visited{
+    text-decoration: none;
+    color: #231814;
+}
+
+header:hover{
+    text-decoration: none;
+    color: #FEF6C2;
+}
+
+.onethird{
+    float: left;
+    width: 33%;
+}
